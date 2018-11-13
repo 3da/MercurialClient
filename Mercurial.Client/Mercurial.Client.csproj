@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="15.0">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="System.Diagnostics.Process" Version="4.3.0" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>

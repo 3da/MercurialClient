@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercurial.Client", "Mercurial.Client\Mercurial.Client.csproj", "{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED4558B1-C3C3-4C0B-B693-C6ADD40CF621} = {52A51268-FDF5-4767-A73B-61CBA74AF0F0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69652092-9E06-46CE-9E78-2D29AE56750D}
+	EndGlobalSection
+EndGlobal
