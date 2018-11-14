@@ -24,6 +24,7 @@ using System.IO;
 using System.Xml;
 using System.Xml.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Mercurial.Client
 {
@@ -63,7 +64,8 @@ namespace Mercurial.Client
             AuthorName = node.Element("author").Value;
             Message = node.Element("msg").Value;
             Hash = node.Attribute("node").Value;
-            Branch = node.Element("branch").Value;
+            Branch = node.Element("branch")?.Value
+                ?? node.Elements("extra").FirstOrDefault(q => q.Attribute("key").Value.Equals("branch", StringComparison.OrdinalIgnoreCase))?.Value;
         }
 
 
